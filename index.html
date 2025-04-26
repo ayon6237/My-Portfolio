@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ayon Banerjee</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./Assets//IMG_20230905_002020.jpg" alt="Profile Photo" class="profile-img">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate web developer with 5 years of experience creating beautiful, functional websites. I specialize in front-end development but also have back-end skills.</p>
+                    <p>When I'm not coding, you can find me hiking, reading, or experimenting with new recipes in the kitchen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A responsive e-commerce website built with React.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>A mobile app for fitness tracking.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>A dashboard for data visualization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">React</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Node.js</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/ayon6237"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayon-banerjee-ab672324b/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/AyonBan46133324?t=67xxT7EkHAiYS8O3kshpzQ&s=09"><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ayon Banerjee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
